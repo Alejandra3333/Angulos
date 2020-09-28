@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:background="@android:color/darker_gray"
+        android:text="@string/fun"
+        android:textAppearance="?android:textAppearanceLarge"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text=" "
+        />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/sin_radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sin"
+            android:layout_marginRight="80dp"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <RadioButton
+            android:id="@+id/cos_radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cos"
+            android:layout_marginRight="60dp"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <RadioButton
+            android:id="@+id/tan_radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tan"
+            android:layout_marginRight="0dp"
+            android:textAppearance="?android:textAppearanceMedium" />
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text=" "
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="@string/grados"
+        android:background="@android:color/darker_gray"
+        android:textAppearance="?android:textAppearanceLarge" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text=" "
+        />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/a_radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_45"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <RadioButton
+            android:id="@+id/b_radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_90"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <RadioButton
+            android:id="@+id/c_radio_button"
+            android:layout_width="77dp"
+            android:layout_height="match_parent"
+            android:text="@string/_180"
+            android:textAppearance="?android:textAppearanceMedium" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imagen1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="207dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="RESULTADO"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="@color/grey_font" />
+
+        <TextView
+            android:id="@+id/Resultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textAppearance="?android:textAppearanceLarge" />
+    </LinearLayout>
+</LinearLayout>

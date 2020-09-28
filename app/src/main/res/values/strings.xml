@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Angulos</string>
+    <string name="fun">FUNCIONES</string>
+    <string name="sin">SIN</string>
+    <string name="cos">COS</string>
+    <string name="tan">TAN</string>
+    <string name="grados">GRADOS</string>
+    <string name="_45">45</string>
+    <string name="_90">90</string>
+    <string name="_180">180</string>
+
+</resources>
